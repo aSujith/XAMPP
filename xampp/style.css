@@ -1,0 +1,60 @@
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9ecef;
+    margin: 0;
+}
+
+/* Form styling */
+form {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+/* Title styling */
+form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling for form elements */
+form p {
+    margin: 10px 0 20px;
+    color: #666;
+}
+
+/* Input field styling */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 4px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+
+/* Submit button styling */
+form input[type="submit"] {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
